@@ -1,1 +1,112 @@
+body {
+    background-color: #CBF4E0;
+    font-family: sans-serif, arial, helvetica;}
 
+.header a{
+    font-family: arial;
+    font-size: 110%;
+    color: black;
+    position: fixed;
+    top: 0px;
+    text-decoration: none;
+    z-index:7;}
+.header a:hover {color: green;}
+.headerimage {
+    position: fixed;
+    top: 7px;
+    left: 220px;
+    z-index: 6;}
+.headerspace {
+    height: 90px;
+    width: 100%;
+    background-color: #DEFEEF;
+    color: #DEFEEF;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 5;}
+
+.navmenu ul {
+    margin: 0px;
+    padding: 0px; 
+	list-style-type: none;
+	list-style-image: none;
+	position: fixed;
+	right: 0px;
+    z-index: 8;}
+.navmenu li {
+    display: inline;
+    padding: 5px 8px 5px 8px;
+    font-size: 115%;}
+.navmenu a {
+    text-decoration: none;
+    color: black;}
+.navmenu a:hover {color: green;}
+
+h2 {
+    text-align: center;}
+
+.sidebarone {
+    width: 20%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+    background-color: #91E5BD;
+    text-align: center;}
+.sidebarone a img {
+    border: 2px solid black;}
+
+.sidebartwo {
+    width: 20%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+    background-color: #91E5BD;
+    text-align: center;}
+.sidebartwo a img {
+    border: 2px solid black;}
+
+.maincontent {
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;}
+.maincontent h4 {
+    font-weight: normal;}
+.maincontent img {
+    border: 0px solid grey;
+    padding: 15px;}
+.maincontent p {
+    text-align: left;}
+.maincontent h3 {
+    text-align: left;}
+    
+    
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+    background-color: #25DA83;
+    text-align: center;
+    font-size: 80%;
+    z-index: 6;}
+
+.centered {
+    text-align: center;}
+    
+.alignedleft {
+    float: left;}
+.alignedright {
+    float: right;}
+
+.storelocationsmaincontent p {
+    line-height: 2.4em;
+    font-size: 105%;}
+.threepadding {
+    padding: 0px;}
